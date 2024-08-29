@@ -1,0 +1,24 @@
+#flex-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 600px;
+  border: solid 1px black;
+  /* 메인축 */
+  /* justify-content: space-between; */
+  /* 반대축 */
+  /* align-items: center; */
+  
+}
+
+#flex-wrap .box {
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  background-color: green;
+}
+
+/* 하나만 정의할때 */
+#flex-wrap .box5 {
+  align-self: center;
+}

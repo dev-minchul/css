@@ -1,0 +1,8 @@
+#container{
+  width: 600px;
+  height: 600px;
+  border: double 3px orange;
+  box-sizing: border-box;
+  padding: 30px 60px;
+  margin: 20px 10px 60px 50px;
+}
